@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Silvia4.html",
+            "file": "c:\\School\\Schooljaar1\\J 1.1\\Code\\HTML + CSS\\Silvia HTMl\\Les5\\Silvia4.html"
+        }
+    ]
+}
