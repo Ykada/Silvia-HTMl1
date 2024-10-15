@@ -10,21 +10,25 @@
 <body>
     <script>
 
-        function rollDice1() {
-            let random = Math.random();
-            let getal = random * 6;
-            getal = Math.ceil(getal);
-            return getal;
-        }
+        function rollDice1(){
         let dob1 = rollDice1();
         let dob2 = rollDice1();
         let dob3 = rollDice1();
         let dob4 = rollDice1();
-        console.log(dob1, dob2, dob3, dob4);
-        let laagste = Math.min(dob1, dob2, dob3, dob4);
-        console.log("Nothing done", dob1 + dob2 + dob3 + dob4);
-        console.log("Lowest removed", dob1 + dob2 + dob3 + dob4 - laagste);
-        console.log("Lowest number removed", laagste);
+            let random = Math.random();
+            let getal = random * 6;
+            console.log("", dob1 + dob2 + dob3 + dob4 - laagste);
+            return getal;
+        }
+
+
+        console.log("Strength", rollDice1());
+        console.log("Perception", rollDice1());
+        console.log("Endurance", rollDice1());
+        console.log("Charisma", rollDice1() );
+        console.log("Intelligence", rollDice1() );
+        console.log("Agility", rollDice1() );
+        console.log("Luck", rollDice1() );
     </script>
 </body>
 
