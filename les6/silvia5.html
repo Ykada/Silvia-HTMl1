@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow!!</title>
+</head>
+
+<body>
+    <script>
+
+        function rollDice1() {
+            let random = Math.random();
+            let getal = random * 6;
+            getal = Math.ceil(getal);
+            return getal;
+        }
+        let dob1 = rollDice1();
+        let dob2 = rollDice1();
+        let dob3 = rollDice1();
+        let dob4 = rollDice1();
+        console.log(dob1, dob2, dob3, dob4);
+        let laagste = Math.min(dob1, dob2, dob3, dob4);
+        console.log("Nothing done", dob1 + dob2 + dob3 + dob4);
+        console.log("Lowest removed", dob1 + dob2 + dob3 + dob4 - laagste);
+        console.log("Lowest number removed", laagste);
+    </script>
+</body>
+
+</html>
